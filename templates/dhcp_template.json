@@ -1,6 +1,7 @@
 {
     "name": "Aditya",
     "template_name": "DHCP Template",
+    "short_description": "Template for DHCP",
     "code": {
             "interfaces": [
                 {
