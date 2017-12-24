@@ -7,8 +7,9 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Pull Request Process
 
 1. Fork this repository. Add your template in the repository within the folder named `templates`. While adding the template, make sure that you are following structure given in sample template. Verify that your template works.
-2. Commit your changes with the phrase `New Template - ` followed by the template name.
-3. Once project maintainers verify the template, your pull request will be approved.
+2. Add template name, description and file name of saved template in `templates.json`.
+3. Commit your changes with the phrase `New Template - ` followed by the template name.
+4. Once project maintainers verify the template, your pull request will be approved.
 
 ## Code of Conduct
 
