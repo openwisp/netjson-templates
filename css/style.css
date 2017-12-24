@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #121a22;
+    color: #ecf0f1;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.column,
+.columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+    .container {
+        width: 85%;
+        padding: 0;
+    }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+    .container {
+        width: 80%;
+    }
+
+    .column,
+  .columns {
+        margin-left: 4%;
+    }
+
+    .column:first-child,
+  .columns:first-child {
+        margin-left: 0;
+    }
+
+    .one.column,
+  .one.columns {
+        width: 4.66666666667%;
+    }
+
+    .two.columns {
+        width: 13.3333333333%;
+    }
+
+    .three.columns {
+        width: 22%;
+    }
+
+    .four.columns {
+        width: 30.6666666667%;
+    }
+
+    .five.columns {
+        width: 39.3333333333%;
+    }
+
+    .six.columns {
+        width: 48%;
+    }
+
+    .seven.columns {
+        width: 56.6666666667%;
+    }
+
+    .eight.columns {
+        width: 65.3333333333%;
+    }
+
+    .nine.columns {
+        width: 74.0%;
+    }
+
+    .ten.columns {
+        width: 82.6666666667%;
+    }
+
+    .eleven.columns {
+        width: 91.3333333333%;
+    }
+
+    .twelve.columns {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .one-third.column {
+        width: 30.6666666667%;
+    }
+
+    .two-thirds.column {
+        width: 65.3333333333%;
+    }
+
+    .one-half.column {
+        width: 48%;
+    }
+
+  /* Offsets */
+    .offset-by-one.column,
+  .offset-by-one.columns {
+        margin-left: 8.66666666667%;
+    }
+
+    .offset-by-two.column,
+  .offset-by-two.columns {
+        margin-left: 17.3333333333%;
+    }
+
+    .offset-by-three.column,
+  .offset-by-three.columns {
+        margin-left: 26%;
+    }
+
+    .offset-by-four.column,
+  .offset-by-four.columns {
+        margin-left: 34.6666666667%;
+    }
+
+    .offset-by-five.column,
+  .offset-by-five.columns {
+        margin-left: 43.3333333333%;
+    }
+
+    .offset-by-six.column,
+  .offset-by-six.columns {
+        margin-left: 52%;
+    }
+
+    .offset-by-seven.column,
+  .offset-by-seven.columns {
+        margin-left: 60.6666666667%;
+    }
+
+    .offset-by-eight.column,
+  .offset-by-eight.columns {
+        margin-left: 69.3333333333%;
+    }
+
+    .offset-by-nine.column,
+  .offset-by-nine.columns {
+        margin-left: 78.0%;
+    }
+
+    .offset-by-ten.column,
+  .offset-by-ten.columns {
+        margin-left: 86.6666666667%;
+    }
+
+    .offset-by-eleven.column,
+  .offset-by-eleven.columns {
+        margin-left: 95.3333333333%;
+    }
+
+    .offset-by-one-third.column,
+  .offset-by-one-third.columns {
+        margin-left: 34.6666666667%;
+    }
+
+    .offset-by-two-thirds.column,
+  .offset-by-two-thirds.columns {
+        margin-left: 69.3333333333%;
+    }
+
+    .offset-by-one-half.column,
+  .offset-by-one-half.columns {
+        margin-left: 52%;
+    }
+}
+
+.menu {
+    height: 100px;
+    border: 5px dashed #ecf0f1;
+}
+
+.item {
+    vertical-align: middle;
+    height: 100px;
+    display: table-cell;
+    font-size: 2em;
+    cursor: default;
+}
+
+.body {
+    padding-top: 20px;
+    height: 100%;
+}
+
+@keyframes loading {
+    0% {
+        width: 50pt;
+        height: 50pt;
+        margin-top: 0;
+    }
+    25% {
+        height: 4pt;
+        margin-top: 23pt;
+    }
+    50% {
+        width: 4pt;
+    }
+    75% {
+        width: 50pt;
+    }
+    100% {
+        width: 50pt;
+        height: 50pt;
+        margin-top: 0;
+    }
+}
+
+.loader {
+    width: 50pt;
+    height: 50pt;
+    border-radius: 100%;
+    border: #6767fa 4pt solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    animation: loading 1s infinite;
+}
+
+.loading {
+    background-color: #34495e;
+    z-index: 999;
+    height: 100%;
+}
+
+.load-text {
+    text-align: center;
+}
+
+.invisible {
+    display: none;
+}
+
+.card {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    background-color: #ecf0f1;
+    color: #121a22;
+    padding: 25px 0 25px 50px;
+    border-radius: 20px;
+    line-height: 30px;
+}
+
+.i {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
