@@ -1,5 +1,5 @@
 if(window.fetch) {
-	fetch("../templates.json").then(function(response) {
+	fetch("https://raw.githubusercontent.com/openwisp/netjson-templates/master/templates.json").then(function(response) {
 		return response.json();
 	}).then(function(data) {
 		for(var i=0; i<data.length; i++) {
