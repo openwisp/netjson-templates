@@ -1,7 +1,0 @@
-[
-	{
-		"name": "DHCP Template",
-		"short_description": "Template for DHCP Configuration",
-		"file_name": "dhcp_template.json"
-	}
-]
