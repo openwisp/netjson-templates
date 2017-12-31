@@ -9,7 +9,7 @@
               <b>Description</b>: {{ template.short_description }}
             </div><br>
             <div class="extra content">
-              <a :href="'https://raw.githubusercontent.com/openwisp/netjson-templates/master/templates/' + template.file_name"class="ui primary button">See Template</a>
+              <a :href="'/template/' + template.file_name" class="ui primary button">See Template</a>
             </div>
           </div>
         </div>

@@ -15,7 +15,8 @@
   "dependencies": {
     "axios": "^0.17.1",
     "marked": "^0.3.9",
-    "nuxt": "^1.0.0-rc11"
+    "nuxt": "^1.0.0-rc11",
+    "prismjs": "^1.9.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
