@@ -10,10 +10,10 @@
     <div class="twelve wide column">{{ template.short_description }}</div>
     <div class="four wide column"><h3>Code:</h3></div>
     <div class="ten wide column">
-      <pre>
-      <code class="language-json">
-        {{ template.code }}
-      </code>
+      <pre class="ui green segment">
+        <code class="language-json" id="code-copy">
+          {{ template.code }}
+        </code>
       </pre>
     </div>
     <script src="/js/prism.js"></script>
